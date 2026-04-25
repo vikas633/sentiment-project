@@ -1,0 +1,6 @@
+- hosts: localhost
+  connection: local
+  tasks:
+    - name: Show message
+      debug:
+        msg: "Ansible deployment successful"
